@@ -1,0 +1,530 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+    line-height: 1.6;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000;
+    
+
+    
+}
+
+.logo pre {
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+}
+/* Add this to your existing CSS file (styles.css) */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icon:hover {
+    color: #0077b5; /* LinkedIn blue color */
+}
+
+.social-icon:nth-child(2):hover {
+    color:#575757; /* GitHub black color */
+}
+
+
+a img{
+    height: 60px;
+    width:60px;
+
+}
+a img{
+    height: 60px;
+    width: 60px;
+}
+#home .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 20px 20px;
+
+}
+
+#home .text-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+#home .image-content {
+    flex: 1;
+    text-align: center;
+}
+
+#home .image-content img {
+
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+
+    #home .home-content {
+        flex-direction: column;
+    }
+
+    #home .image-content {
+        margin-top: 20px;
+    }
+}
+.text-content h1 p{
+    font-size:25px;
+
+}
+.work{
+    color: black;
+    background-color: #ffbd39;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 43px;
+    margin-bottom: 56px;
+
+}
+.gead{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-left: 43px;
+
+
+}
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+
+}
+h1 span{
+    color: #ffbd39;
+
+}
+.typing-container{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+#pic{
+    height: 361px;
+    width: 167px;
+    margin-left: 46px;
+}
+.info{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.about-content{
+    display:flex ;
+
+
+}
+#about{
+    display: flex;
+
+}
+.box2{
+    margin-left: 69px;
+    width: 444px;
+
+
+}
+
+
+/* Add this to your existing CSS file or within a <style> block */
+
+.info {
+    display: flex;
+    flex-direction: column; /* Adjust direction if needed */
+    align-items: flex-start; /* Adjust alignment if needed */
+}
+.skills{
+    margin-left: 40px;
+}
+.big{
+    
+     
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      
+}
+h3 .small{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.big1{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+h3 .small1{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.big2{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+h3 .small2{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.big3{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+h3 .small3{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.big4{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+h3 .small4{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+.big5{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+h3 .small5{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+
+}
+h3 .small6{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffbd39;
+
+}
+.big6{
+    
+     
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.social-li button{
+    color: black;
+    background-color: #ffbd39;
+    font-family: "Titillium Web", sans-serif;
+}
+.resu .top{
+    text-align: center;
+
+}
+.resu .des{
+    text-align: center;
+
+}
+.des{
+    margin-left: 150px;
+    color: gray;
+
+
+}
+
+ .start{
+    text-align: center;
+}
+.edu{
+    display: flex;
+    
+            justify-content: center;
+            align-items: center;
+
+}
+.collg{
+    display: flex;
+    flex-direction: column;
+    
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+             background-color: #ffffff1a;
+
+
+            margin-right: 20px;
+}
+.skol{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff1a;
+
+    
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            margin-top: 20px;
+            width: 344px;
+            margin-bottom: 20px;
+
+
+}
+
+.collg h2{
+    color: #ffbd39;
+}
+.collg p{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+
+}
+.skol h2{
+    color: #ffbd39;
+
+}
+.skol p{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center-container button{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    background-color: #ffbd39;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
+
+
+
+}
+
+.detail img{
+    height: 228px;
+    width: 397px;
+}
+.sec h3{
+    color: white;
+
+}
+.detail a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.pro h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pro p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec1 h3{
+    color: white;
+}
+
+.detail1 img{
+    height: 228px;
+    width: 397px;
+}
+
+.detail1 h3{
+    color: white;
+}
+
+.inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.detail{
+    margin-right: 40px;
+}
+.inform1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.detail2{
+    margin-right: 40px;
+}
+.detail2 img{
+    height: 228px;
+    width: 397px;
+}
+.detail3 img{
+    height: 228px;
+    width: 397px;
+}
+.detail2 h3{
+    color: white;
+}
+.detail3 h3{
+    color: white;
+}
+.find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.find ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.find li {
+    margin-right: 15px;
+    font-size: 28px; 
+    
+
+}
+
+.find a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.find i {
+    font-size: 28px; 
+}
+.find .item{
+    color: #ffbd39;
+}
+.text-content span{
+    margin-left: 43px;
+}
+.text-content h1{
+    margin-left: 43px;
+}
+
+.text-content .typing-container{
+    margin-left: 43px;
+}
+.text-content p{
+    margin-left: 43px;
+}
